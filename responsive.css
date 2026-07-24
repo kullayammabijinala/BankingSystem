@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+  .dashboard-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .sidebar {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .auth-card {
+    width: 90% !important;
+    padding: 24px !important;
+  }
+}
