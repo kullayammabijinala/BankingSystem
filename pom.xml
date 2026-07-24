@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bank</groupId>
-    <artifactId>loan-service</artifactId>
+    <artifactId>transaction-service</artifactId>
     <version>1.0.0</version>
-    <name>loan-service</name>
+    <name>transaction-service</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
