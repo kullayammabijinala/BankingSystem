@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Apex Bank</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="brand">Apex<span>Bank</span></div>
+      <ul class="nav-menu">
+        <li><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+        <li><a href="transfer.html" class="nav-link">Transfers</a></li>
+        <li><a href="transactions.html" class="nav-link">History</a></li>
+        <li><a href="profile.html" class="nav-link">Profile</a></li>
+        <li><a href="admin.html" class="nav-link">Admin Panel</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content animate-fade-in">
+      <div style="margin-bottom:32px;">
+        <h1>Hello, <span id="userName">User</span></h1>
+        <p style="color:var(--text-muted);">Overview of your accounts & finances.</p>
+      </div>
+
+      <div class="grid-3" id="accountsList">
+        <div class="glass-panel stat-card">
+          <p class="stat-label">Savings Account</p>
+          <p class="stat-value">$12,450.00</p>
+        </div>
+        <div class="glass-panel stat-card">
+          <p class="stat-label">Checking Account</p>
+          <p class="stat-value">$3,210.50</p>
+        </div>
+      </div>
+
+      <div class="glass-panel" style="padding:24px;">
+        <h3>Recent Transactions</h3>
+        <div id="transactionsList" style="margin-top:16px;">
+          <p style="color:var(--text-muted);">Loading transactions...</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

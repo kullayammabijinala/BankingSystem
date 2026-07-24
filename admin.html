@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Apex Bank</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="brand">Apex<span>Admin</span></div>
+      <ul class="nav-menu">
+        <li><a href="admin.html" class="nav-link active">System Metrics</a></li>
+        <li><a href="dashboard.html" class="nav-link">Back to App</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h2>Microservices System Status</h2>
+      <div class="grid-3" style="margin-top:24px;">
+        <div class="glass-panel stat-card">
+          <p class="stat-label">Auth Service</p>
+          <p class="stat-value" style="color:var(--success);">ONLINE</p>
+        </div>
+        <div class="glass-panel stat-card">
+          <p class="stat-label">Account Service</p>
+          <p class="stat-value" style="color:var(--success);">ONLINE</p>
+        </div>
+        <div class="glass-panel stat-card">
+          <p class="stat-label">Transaction Service</p>
+          <p class="stat-value" style="color:var(--success);">ONLINE</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

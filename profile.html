@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile - Apex Bank</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="brand">Apex<span>Bank</span></div>
+      <ul class="nav-menu">
+        <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+        <li><a href="transfer.html" class="nav-link">Transfers</a></li>
+        <li><a href="transactions.html" class="nav-link">History</a></li>
+        <li><a href="profile.html" class="nav-link active">Profile</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h2>My Profile</h2>
+      <div class="glass-panel" style="max-width:500px; padding:32px; margin-top:24px;">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="profileName" class="form-control" readonly>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="profileEmail" class="form-control" readonly>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>

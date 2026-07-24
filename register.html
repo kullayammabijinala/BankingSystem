@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Apex Bank</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="auth-wrapper">
+    <div class="glass-panel auth-card animate-fade-in">
+      <div class="auth-header">
+        <h2>Open an Account</h2>
+        <p style="color:var(--text-muted); font-size:0.9rem;">Join NextGen Banking today</p>
+      </div>
+      <form id="registerForm">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="fullName" class="form-control" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" id="password" class="form-control" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px;">Create Account</button>
+      </form>
+      <p style="text-align:center; margin-top:20px; font-size:0.875rem; color:var(--text-muted);">
+        Already have an account? <a href="login.html" class="auth-link">Sign In</a>
+      </p>
+    </div>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>
