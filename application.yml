@@ -1,9 +1,9 @@
 server:
-  port: 8086
+  port: 8084
 
 spring:
   application:
-    name: loan-service
+    name: transaction-service
 
 eureka:
   client:
