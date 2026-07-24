@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bank</groupId>
-    <artifactId>customer-service</artifactId>
+    <artifactId>discovery-server</artifactId>
     <version>1.0.0</version>
-    <name>customer-service</name>
+    <name>discovery-server</name>
+    <description>Eureka Service Discovery</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,16 +24,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
